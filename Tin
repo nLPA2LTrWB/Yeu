@@ -1,0 +1,293 @@
+local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Discord-Lib/main/Discord-Lib'))()
+local win = DiscordLib:Window("[Pop hub v2]")
+local per = game:GetService("Players").LocalPlayer.Name
+DiscordLib:Notification("Premium Stars ⭐ Share", "Hello! ⭐" .. per .. ".cảm ơn mày đã sài hack của tao", "chap nhận sài?")
+
+local serv = win:Server("Chon", "")
+local drops = serv:Channel("hack free")
+local dis = nil
+local aura = false
+
+drops:Button("kill aura ", function()
+getgenv().G = true
+getgenv().Creator = 'https://discord.gg/B3HqPPzFYr - HalloweenGaster'
+while getgenv().G and getgenv().Creator == 'https://discord.gg/B3HqPPzFYr - HalloweenGaster' do
+wait(0.9)
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
+sethiddenproperty(game.Players.LocalPlayer, "MaxSimulationRadius", 112412400000)
+for i,d in pairs(game.Workspace:GetDescendants()) do
+    if d.ClassName == 'Humanoid' and d.Parent.Name ~= game.Players.LocalPlayer.Name then
+        d.Health = 0
+    end
+end
+end
+end)
+
+local drops = serv:Channel("Fast attack⚔️")
+drops:Button("cid", function()
+while wait() do
+local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Tengen.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+end
+end)
+
+drops:Button("Guts", function()
+while wait() do
+local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Zabuza.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+end
+end)
+
+drops:Button("YoruV2", function()
+while wait() do
+local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.YoruV2.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+end
+end)
+
+drops:Button("yoruv3", function()
+while wait() do
+local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.YoruV3.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+end
+end)
+
+drops:Button("Katana", function()
+while wait() do
+local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Katana.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+end
+end)
+
+drops:Button("Gojo", function()
+while wait() do
+local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Gojo.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+end
+end)
+
+drops:Button("Sukuna", function()
+while wait() do
+local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Sukuna.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+end
+end)
+
+local drops = serv:Channel("Auto quest")
+drops:Button("lưu ý cần nhấn vào npc nhiệm vụ trước!", function()
+end)
+
+drops:Button("quest 1", function()
+while wait() do
+game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept1.RemoteEvent:FireServer()
+end
+end)
+
+drops:Button("quest 2", function()
+while wait() do
+game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept2.RemoteEvent:FireServer()
+end
+end)
+
+drops:Button("quest 3", function()
+while wait() do
+game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept3.RemoteEvent:FireServer()
+end
+end)
+
+drops:Button("nếu quest 1 ko được thì nhấn quest 2 ko được nữa thì nhấn quest 3", function()
+end)
+
+drops:Button("nếu không được nữa thì mày ko bt sài(nguuu)", function()
+end)
+
+drops:Button("muốn tắt auto quest thì thoát menu nhiệm vụ npc", function()
+end)
+
+local drops = serv:Channel("Lấy giáp của cả sever (vô hạn máu")
+drops:Button("Giáp cursed", function()
+local args = {
+    [1] = Vector3.new(500.9279479980469, 44.00369644165039, -548.279296875)
+}
+
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    if player:FindFirstChild("Backpack") then
+        local backpack = player.Backpack
+        local item = backpack:FindFirstChild("Cursed-Armor")
+        if item and item:FindFirstChild("K") and item.K:FindFirstChild("Fire") then
+            
+            item.K.Fire:FireServer(unpack(args))
+        end
+    end
+end
+end)
+
+drops:Button("Giáp kim cương", function()
+local args = {
+    [1] = Vector3.new(500.9279479980469, 44.00369644165039, -548.279296875)
+}
+
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    if player:FindFirstChild("Backpack") then
+        local backpack = player.Backpack
+        local item = backpack:FindFirstChild("Diamond-Armor")
+        if item and item:FindFirstChild("K") and item.K:FindFirstChild("Fire") then
+            
+            item.K.Fire:FireServer(unpack(args))
+        end
+    end
+end
+end)
+
+drops:Button("Giáp thunder", function()
+local args = {
+    [1] = Vector3.new(500.9279479980469, 44.00369644165039, -548.279296875)
+}
+
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    if player:FindFirstChild("Backpack") then
+        local backpack = player.Backpack
+        local item = backpack:FindFirstChild("Thunder-Armor")
+        if item and item:FindFirstChild("K") and item.K:FindFirstChild("Fire") then
+            
+            item.K.Fire:FireServer(unpack(args))
+        end
+    end
+end
+end)
+
+drops:Button("giáp epic(gamepass)", function()
+local args = {
+    [1] = Vector3.new(500.9279479980469, 44.00369644165039, -548.279296875)
+}
+
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    if player:FindFirstChild("Backpack") then
+        local backpack = player.Backpack
+        local item = backpack:FindFirstChild("Epic-Armor")
+        if item and item:FindFirstChild("K") and item.K:FindFirstChild("Fire") then
+            
+            item.K.Fire:FireServer(unpack(args))
+        end
+    end
+end
+end)
+
+drops:Button("giáp gold", function()
+local args = {
+    [1] = Vector3.new(500.9279479980469, 44.00369644165039, -548.279296875)
+}
+
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    if player:FindFirstChild("Backpack") then
+        local backpack = player.Backpack
+        local item = backpack:FindFirstChild("Golden-Armor")
+        if item and item:FindFirstChild("K") and item.K:FindFirstChild("Fire") then
+            
+            item.K.Fire:FireServer(unpack(args))
+        end
+    end
+end
+end)
+
+local drops = serv:Channel("Auto")
+drops:Button("Auto secret", function()
+while wait() do
+fireclickdetector(game:GetService("Workspace").MAP["STARTER ISLAND [ Lv 1+ ]"]["Secret Random"].RANDOM)
+end
+end)
+
+drops:Button("Auto yoru v3", function()
+while wait() do
+fireclickdetector(game:GetService("Workspace").MAP["DAK ISLAND [Lv 1350+]"]["Yoru V3 random"].ClickDetector)
+end
+end)
+
+drops:Button("nếu ko hoạt động thì thử đến đảo để load", function()
+end)
+
+local drops = serv:Channel("pvp")
+drops:Button("speed", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 80
+end)
+
+drops:Button("tele đến chỗ an toàn (khi sắp die)", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(602.925415, 67.1156769, -532.647766, 0.997549474, 0, 0.0699642524, 0, 1, 0, -0.0699642524, 0, 0.997549474)
+end)
+
+local drops = serv:Channel("skill")
+drops:Button("hoho", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+local drops = serv:Channel("Event ⭐")
+drops:Button("1m lvl easy", function()
+end)
+drops:Button("2m lvl normal", function()
+end)
+drops:Button("5m lvl hard", function()
+end)
+drops:Button("10m lvl super hard", function()
+end)
+drops:Button("15m level impossible", function()
+end)
+drops:Button("chụp lvl gửi cho anh tủn eo hoặc chon", function()
+end)
+drops:Button("lvl 1m get angel lvl 2m get 3 angel lvl 4m get geto lvl 10m get 3 cid", function()
+end)
+drops:Button("15m trở thành nhân viên đc test hack + đc một item bất kỳ bạn muốn ", function()
+end)
+local serv = win:Server("script tổng hợp", "")
+local drops = serv:Channel("script")
+drops:Button("code spy", function()
+loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+end)
+
+drops:Button("admin inf yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local serv = win:Server("A Credits", "")
+local drops = serv:Channel("Credits")
+drops:Button("tìm menu+thêm script (Chon)", function()
+end)
+
+drops:Button("người tạo fast attack(concubi99)", function()
+end)
